@@ -5,7 +5,7 @@ public class MultipleMessage {
   }
 }
     class Message1{
-        void MessageA(){
+      static void MessageA(){
         System.out.println("Message One");
       }
     }
