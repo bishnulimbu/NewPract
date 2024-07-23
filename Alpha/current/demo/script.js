@@ -32,3 +32,10 @@ text1.classList.add("underline");
 text1.classList.toggle("underline");
 //setAttribut takes only one value at a time.
 //contains and such methods are there in classList
+
+let key1 = document.querySelector("#text1");
+
+key1.addEventListener("keydown", function (event) {
+  console.log(event.key);
+  console.log(event.code);
+});
