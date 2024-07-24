@@ -42,4 +42,5 @@ let key1 = document.querySelector("#text1");
 
 key1.addEventListener("input", function () {
   console.log(key1.value);
+  //event.stopPropagation();can be used for percise event instead of including all the parent event as well.
 });
