@@ -35,7 +35,11 @@ text1.classList.toggle("underline");
 
 let key1 = document.querySelector("#text1");
 
-key1.addEventListener("keydown", function (event) {
-  console.log(event.key);
-  console.log(event.code);
+// key1.addEventListener("keydown", function (event) {
+//   console.log(event.key);
+//   console.log(event.code);
+// });
+
+key1.addEventListener("input", function () {
+  console.log(key1.value);
 });
