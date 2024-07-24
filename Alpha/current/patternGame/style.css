@@ -1,0 +1,39 @@
+.h3 {
+  align-content: center;
+}
+.mainContainer {
+  margin: 0 45%;
+  color: red;
+  align-content: center;
+}
+.box1 button {
+  width: 10em;
+  height: 10em;
+}
+.box2 button {
+  width: 10em;
+  height: 10em;
+}
+.box1 {
+  display: flex;
+  gap: 1em;
+  justify-content: space-evenly;
+}
+.box2 {
+  margin-top: 1em;
+  display: flex;
+  gap: 1em;
+  justify-content: space-evenly;
+}
+#one {
+  background-color: red;
+}
+#two {
+  background-color: blue;
+}
+#three {
+  background-color: green;
+}
+#four {
+  background-color: purple;
+}
