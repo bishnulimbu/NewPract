@@ -1,0 +1,46 @@
+.h3 {
+  align-content: center;
+}
+.mainContainer {
+  margin: 0 45%;
+  color: red;
+  align-content: center;
+}
+.box1 button {
+  width: 10em;
+  height: 10em;
+  border-radius: 20%;
+  border: 0.5em solid black;
+}
+.box2 button {
+  width: 10em;
+  border-radius: 20%;
+  height: 10em;
+  border: 0.5em solid black;
+}
+.box1 {
+  display: flex;
+  gap: 1em;
+  justify-content: space-evenly;
+}
+.box2 {
+  margin-top: 1em;
+  display: flex;
+  gap: 1em;
+  justify-content: space-evenly;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.purple {
+  background-color: purple;
+}
+.flash {
+  background-color: white;
+}
