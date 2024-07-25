@@ -9,10 +9,14 @@
 .box1 button {
   width: 10em;
   height: 10em;
+  border-radius: 20%;
+  border: 0.5em solid black;
 }
 .box2 button {
   width: 10em;
+  border-radius: 20%;
   height: 10em;
+  border: 0.5em solid black;
 }
 .box1 {
   display: flex;
@@ -36,4 +40,19 @@
 }
 #four {
   background-color: purple;
+}
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.flash {
+  animation: flash 1s infinite;
 }
