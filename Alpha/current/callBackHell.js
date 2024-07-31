@@ -22,15 +22,15 @@ function changeColor(color, delay) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       text1.style.color = color;
-      resolve("color changed");
     }, delay);
+    resolve("color changed");
   });
 }
 
-changeColor("red", 1000)
+let requestPromise = changeColor("red", 1000)
   .then(() => {
     console.log("color changed");
-    changeColor("blue", 1000).then(() => {
+    changeColor("blue", 2000).then(() => {
       console.log("blue color");
       changeColor("green", 1000).then(() => {
         console.log("green color");
