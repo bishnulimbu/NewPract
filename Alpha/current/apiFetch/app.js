@@ -9,6 +9,7 @@ btn1.addEventListener("click", retrive);
 
 async function retrive() {
   let text = document.querySelector("#input1").value;
+  //input value should be entered inside the fucnction for the?
   try {
     let fullData = url1 + text;
     let res = await axios.get(fullData);
